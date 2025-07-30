@@ -14,4 +14,4 @@ RUN npm install
 EXPOSE 5000
 
 # สั่งรันแอป
-CMD ["npm", "start"]
+CMD ["node", "server.js"]
