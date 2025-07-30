@@ -1,0 +1,2 @@
+const FOLDER_ID = '1-Qlzr8nr7iTguAEWjBGTZ1IBl6sxmbEL';
+const API_KEY = 'AIzaSyBjMeYJ2wuNZ72KI1me0N3QUSb7k9Xctuo';  // STATIC
