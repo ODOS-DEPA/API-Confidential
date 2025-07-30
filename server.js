@@ -15,7 +15,7 @@ async function listFilesInFolder(folderId) {
   return response.data.files.filter(f => f.mimeType !== 'application/vnd.google-apps.folder');
 }
 
-app.get('/download-Confidential/Docx', async (req, res) => {
+app.get('/download/Confidential-Docx', async (req, res) => {
   try {
     let FOLDER_ID = process.env[req.query.studentid];
     const files = await listFilesInFolder(FOLDER_ID);
